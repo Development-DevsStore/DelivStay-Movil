@@ -2,8 +2,7 @@ name: Android Release apk
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   version:
